@@ -1,5 +1,85 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+Header{
+    width: 100%;
+    height: 20%;
+    background-color: #FFDBAA;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.HeaderText{
+    color: #553100;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button.Head{
+    width: 120px;
+    height: 40px;
+    background-color: #805215;
+    margin: 30px 30px 30px 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    float: right;
+}
+Main{
+    width: 100%;
+    height: 80%;
+    background-color: #D4A76A;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.boxMid{
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 800;
+    text-align: center;
+}
+p{
+    margin-left: 10px;
+}
+.boxBottom{
+    width:90%;
+    height: 200px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+button.Main{
+    width: 120px;
+    height: 40px;
+    background-color: #805215;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 150px
+}
+button.Bottom{
+    width: 95%;
+    height: 40px;
+    background-color: #805215;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 2.5%;
+}
+
